@@ -104,16 +104,11 @@ class ViewController: UIViewController {
         vStackView.addArrangedSubview(sendButton)
         
         vStackView.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: 0).isActive = true
-        
         vStackView.anchor(top: nil, left: view.leftAnchor, bottom: nil, right: view.rightAnchor, topConstant: 0, leftConstant: 15, bottomConstant: 0, rightConstant: 15, widthConstant: 0, heightConstant: 0)
-        
         imageView.heightAnchor.constraint(equalToConstant: 90).isActive = true
-        
         hStackView.anchor(top: nil, left: view.leftAnchor, bottom: nil, right: view.rightAnchor, topConstant: 50, leftConstant: 15, bottomConstant: 0, rightConstant: 15, widthConstant: 0, heightConstant: 0)
-        
         countryCode.anchor(top: nil, left: view.leftAnchor, bottom: nil, right: nil, topConstant: 0, leftConstant: 15, bottomConstant: 0, rightConstant: 0, widthConstant: 100, heightConstant: 38)
         mobileNumber.anchor(top: nil, left: nil, bottom: nil, right: view.rightAnchor, topConstant: 0, leftConstant: 15, bottomConstant: 0, rightConstant: 15, widthConstant: 0, heightConstant: 38)
-        
         sendButton.anchor(top: nil, left: view.leftAnchor, bottom: nil, right: view.rightAnchor, topConstant: 0, leftConstant: 15, bottomConstant: 0, rightConstant: 15, widthConstant: 0, heightConstant: 55)
     }
 
@@ -122,15 +117,14 @@ class ViewController: UIViewController {
         
         let number = self.mobileNumber.text
         let message = "📢 Hello!".addingPercentEncoding(withAllowedCharacters: CharacterSet.alphanumerics)
-        let whatsappDeeplink = "whatsapp://send?text=\(message)&phone=+\(number)"
+        let whatsappDeeplink = "whatsapp://send?text=\(String(describing: message))&phone=+\(String(describing: number))"
         
         
         let appName = "whatsapp"
         let appScheme = "\(appName)://"
         let appUrl = URL(string: appScheme)
         
-        if UIApplication.shared.canOpenURL(appUrl! as URL)
-        {
+        if UIApplication.shared.canOpenURL(appUrl! as URL) {
             if let appSettings = URL(string: whatsappDeeplink) {
                 UIApplication.shared.open(appSettings, options: [:], completionHandler: nil)
             }
