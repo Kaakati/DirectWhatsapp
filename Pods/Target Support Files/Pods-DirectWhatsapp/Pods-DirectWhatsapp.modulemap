@@ -1,0 +1,6 @@
+framework module Pods_DirectWhatsapp {
+  umbrella header "Pods-DirectWhatsapp-umbrella.h"
+
+  export *
+  module * { export * }
+}

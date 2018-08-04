@@ -1,0 +1,6 @@
+framework module CountryKit {
+  umbrella header "CountryKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

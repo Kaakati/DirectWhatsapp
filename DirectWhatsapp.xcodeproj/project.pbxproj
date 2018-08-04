@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B50E43A2115D67E00B6D403 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B50E4392115D67E00B6D403 /* AppDelegate.swift */; };
+		2B50E43C2115D67E00B6D403 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B50E43B2115D67E00B6D403 /* ViewController.swift */; };
+		2B50E43F2115D67E00B6D403 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B50E43D2115D67E00B6D403 /* Main.storyboard */; };
+		2B50E4412115D67F00B6D403 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B50E4402115D67F00B6D403 /* Assets.xcassets */; };
+		2B50E4442115D67F00B6D403 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B50E4422115D67F00B6D403 /* LaunchScreen.storyboard */; };
+		FF14B85A0A0E6558D3CF4E67 /* Pods_DirectWhatsapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 291BEA83E79734FA09D4B41D /* Pods_DirectWhatsapp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		291BEA83E79734FA09D4B41D /* Pods_DirectWhatsapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DirectWhatsapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B50E4362115D67E00B6D403 /* DirectWhatsapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DirectWhatsapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B50E4392115D67E00B6D403 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B50E43B2115D67E00B6D403 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B50E43E2115D67E00B6D403 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B50E4402115D67F00B6D403 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B50E4432115D67F00B6D403 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B50E4452115D67F00B6D403 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44FD705142604D55730E5B16 /* Pods-DirectWhatsapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DirectWhatsapp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DirectWhatsapp/Pods-DirectWhatsapp.debug.xcconfig"; sourceTree = "<group>"; };
+		D6FCC98AAFD8278098BFD9C3 /* Pods-DirectWhatsapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DirectWhatsapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-DirectWhatsapp/Pods-DirectWhatsapp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B50E4332115D67E00B6D403 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF14B85A0A0E6558D3CF4E67 /* Pods_DirectWhatsapp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09CCD0A952F354696619FA86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				291BEA83E79734FA09D4B41D /* Pods_DirectWhatsapp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B50E42D2115D67E00B6D403 = {
+			isa = PBXGroup;
+			children = (
+				2B50E4382115D67E00B6D403 /* DirectWhatsapp */,
+				2B50E4372115D67E00B6D403 /* Products */,
+				526845860778D96ECF0004DA /* Pods */,
+				09CCD0A952F354696619FA86 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2B50E4372115D67E00B6D403 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B50E4362115D67E00B6D403 /* DirectWhatsapp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B50E4382115D67E00B6D403 /* DirectWhatsapp */ = {
+			isa = PBXGroup;
+			children = (
+				2B50E4392115D67E00B6D403 /* AppDelegate.swift */,
+				2B50E43B2115D67E00B6D403 /* ViewController.swift */,
+				2B50E43D2115D67E00B6D403 /* Main.storyboard */,
+				2B50E4402115D67F00B6D403 /* Assets.xcassets */,
+				2B50E4422115D67F00B6D403 /* LaunchScreen.storyboard */,
+				2B50E4452115D67F00B6D403 /* Info.plist */,
+			);
+			path = DirectWhatsapp;
+			sourceTree = "<group>";
+		};
+		526845860778D96ECF0004DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44FD705142604D55730E5B16 /* Pods-DirectWhatsapp.debug.xcconfig */,
+				D6FCC98AAFD8278098BFD9C3 /* Pods-DirectWhatsapp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B50E4352115D67E00B6D403 /* DirectWhatsapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B50E4482115D67F00B6D403 /* Build configuration list for PBXNativeTarget "DirectWhatsapp" */;
+			buildPhases = (
+				F3AC301A4204BF7A3762EEA9 /* [CP] Check Pods Manifest.lock */,
+				2B50E4322115D67E00B6D403 /* Sources */,
+				2B50E4332115D67E00B6D403 /* Frameworks */,
+				2B50E4342115D67E00B6D403 /* Resources */,
+				74FA49C0C1FD74E7B3BDAE31 /* [CP] Embed Pods Frameworks */,
+				2B50E44B2115DF0000B6D403 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DirectWhatsapp;
+			productName = DirectWhatsapp;
+			productReference = 2B50E4362115D67E00B6D403 /* DirectWhatsapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B50E42E2115D67E00B6D403 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Mohamad Kaakati";
+				TargetAttributes = {
+					2B50E4352115D67E00B6D403 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 2B50E4312115D67E00B6D403 /* Build configuration list for PBXProject "DirectWhatsapp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B50E42D2115D67E00B6D403;
+			productRefGroup = 2B50E4372115D67E00B6D403 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B50E4352115D67E00B6D403 /* DirectWhatsapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B50E4342115D67E00B6D403 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B50E4442115D67F00B6D403 /* LaunchScreen.storyboard in Resources */,
+				2B50E4412115D67F00B6D403 /* Assets.xcassets in Resources */,
+				2B50E43F2115D67E00B6D403 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B50E44B2115DF0000B6D403 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" fd41fcb915089d29738aefc4fd11ba1ef750be95 4d842fa7f09e507195e5319a3e5be88e8d5ede77173ee0a2464f6496cf5d9131";
+		};
+		74FA49C0C1FD74E7B3BDAE31 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DirectWhatsapp/Pods-DirectWhatsapp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CountryKit/CountryKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwifterSwift/SwifterSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CountryKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwifterSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DirectWhatsapp/Pods-DirectWhatsapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3AC301A4204BF7A3762EEA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DirectWhatsapp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B50E4322115D67E00B6D403 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B50E43C2115D67E00B6D403 /* ViewController.swift in Sources */,
+				2B50E43A2115D67E00B6D403 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2B50E43D2115D67E00B6D403 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B50E43E2115D67E00B6D403 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B50E4422115D67F00B6D403 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B50E4432115D67F00B6D403 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B50E4462115D67F00B6D403 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B50E4472115D67F00B6D403 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B50E4492115D67F00B6D403 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44FD705142604D55730E5B16 /* Pods-DirectWhatsapp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2CF5GZW7X;
+				INFOPLIST_FILE = DirectWhatsapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaakati.DirectWhatsapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B50E44A2115D67F00B6D403 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6FCC98AAFD8278098BFD9C3 /* Pods-DirectWhatsapp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2CF5GZW7X;
+				INFOPLIST_FILE = DirectWhatsapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaakati.DirectWhatsapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B50E4312115D67E00B6D403 /* Build configuration list for PBXProject "DirectWhatsapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B50E4462115D67F00B6D403 /* Debug */,
+				2B50E4472115D67F00B6D403 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B50E4482115D67F00B6D403 /* Build configuration list for PBXNativeTarget "DirectWhatsapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B50E4492115D67F00B6D403 /* Debug */,
+				2B50E44A2115D67F00B6D403 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B50E42E2115D67E00B6D403 /* Project object */;
+}
