@@ -9,6 +9,7 @@
 import UIKit
 import CountryKit
 import SwifterSwift
+import IHKeyboardAvoiding
 
 class ViewController: UIViewController {
     
@@ -95,7 +96,16 @@ class ViewController: UIViewController {
 
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        KeyboardAvoiding.avoidingView = self.vStackView
+    }
+    
     private func setupUICompnents() {
+        
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(dismissKeyboard (_:)))
+        self.view.addGestureRecognizer(tapGesture)
+        
         view.addSubview(vStackView)
         vStackView.addArrangedSubview(imageView)
         vStackView.addArrangedSubview(hStackView)
@@ -115,23 +125,40 @@ class ViewController: UIViewController {
     
     @objc func createMessage() {
         
-        let number = self.mobileNumber.text
-        let message = "📢 Hello!".addingPercentEncoding(withAllowedCharacters: CharacterSet.alphanumerics)
-        let whatsappDeeplink = "whatsapp://send?text=\(String(describing: message))&phone=+\(String(describing: number))"
+        var formattedNumber : String = ""
         
-        
-        let appName = "whatsapp"
-        let appScheme = "\(appName)://"
-        let appUrl = URL(string: appScheme)
-        
-        if UIApplication.shared.canOpenURL(appUrl! as URL) {
-            if let appSettings = URL(string: whatsappDeeplink) {
-                UIApplication.shared.open(appSettings, options: [:], completionHandler: nil)
-            }
+        if self.mobileNumber.text?.first == "0" {
+            formattedNumber = (self.mobileNumber.text?.removingPrefix("0"))!
         } else {
-            showAlert(title: "Whatsapp Requiered", message: "Whatsapp is not installed on this device.")
+            formattedNumber = self.mobileNumber.text!
         }
         
+//        let message = "".addingPercentEncoding(withAllowedCharacters: CharacterSet.alphanumerics)
+//        let whatsappDeeplink = "whatsapp://send?text=\(String(describing: message))&phone=+\(String(describing: formattedNumber))"
+        
+        if !self.mobileNumber.isEmpty {
+            let whatsappHooks = "whatsapp://send?text=&phone=+\(String(describing: countryCode.text! + formattedNumber))"
+            let whatsAppUrl = URL(string: whatsappHooks)
+            if UIApplication.shared.canOpenURL(whatsAppUrl! as URL)
+            {
+                UIApplication.shared.open(whatsAppUrl!)
+                
+            } else {
+                //redirect to safari because the user doesn't have Instagram
+                print("App not installed")
+                showAlert(title: "Whatsapp Requiered", message: "Whatsapp is not installed on this device.")
+            }
+        } else {
+            showAlert(title: "Mobile Requiered", message: "Mobile Number is Requiered.")
+        }
+        
+        
+        
+    }
+    
+    @objc private func dismissKeyboard (_ sender: UITapGestureRecognizer) {
+        mobileNumber.resignFirstResponder()
+        countryCode.resignFirstResponder()
     }
 
 

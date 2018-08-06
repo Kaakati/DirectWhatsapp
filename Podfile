@@ -10,5 +10,6 @@ target 'DirectWhatsapp' do
     pod 'SwifterSwift'
     pod 'Fabric'
     pod 'Crashlytics'
+    pod 'IHKeyboardAvoiding'
 
 end

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "93A8015B6B8690BE2CA5B1628BE630D0"
+               BlueprintIdentifier = "48BB44717DDF4493E2C80C06718B04DD"
                BuildableName = "Pods_DirectWhatsapp.framework"
                BlueprintName = "Pods-DirectWhatsapp"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "93A8015B6B8690BE2CA5B1628BE630D0"
+            BlueprintIdentifier = "48BB44717DDF4493E2C80C06718B04DD"
             BuildableName = "Pods_DirectWhatsapp.framework"
             BlueprintName = "Pods-DirectWhatsapp"
             ReferencedContainer = "container:Pods.xcodeproj">
